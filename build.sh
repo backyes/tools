@@ -19,5 +19,7 @@ cd $ROOT_DIR/vim && \
   --enable-pythoninterp \
   --enable-luainterp \
   --with-lua-prefix=/usr \
-  --prefix=$HOME
+  --prefix=$HOME/.vimbin
 
+
+# add PATH
