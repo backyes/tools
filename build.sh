@@ -21,5 +21,11 @@ cd $ROOT_DIR/vim && \
   --with-lua-prefix=/usr \
   --prefix=$HOME/.vimbin
 
+# add shell PATH
+# TODO
 
-# add PATH
+
+# space vim
+bash <(curl -fsSL https://raw.githubusercontent.com/liuchengxu/space-vim/master/install.sh)
+mv $ROOT_DIR/spacevim $HOME/.spacevim
+
